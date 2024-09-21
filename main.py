@@ -124,27 +124,3 @@ while(1):
     pygame.display.update()
 
 
-#click
-''' mouse_pos = pygame.mouse.get_pos()
-    mouse_pressed = pygame.mouse.get_pressed()
-
-
-'''
-#Main)
-
-#Rendering text and a ui - Will have 3 different options on which level to select, and some information about the project. 
-
-
-
-#Level 1 - Ocean - Trash comes from off screen into the ocean - click the trash to discard it, if it reaches the ocean if sinks down out of screen and you lose a life
-#create a class with 5 (or more) images of trash, call a random image each time a new one is needed.
-
-#Level 2 - Forest - Axes will come from the edge of the screen towards a tree. click it to stop it. If it reaches the tree, tree gets cut and you lose
-#create an "axe" class, add it to a class, that will move it towards the left of the screen
-
-#Level 3 - City - There are lanes of traffic, and you must click on vehicles that are emmiting pollution to remove them. If they pass, you lose a life
-#create a car class with 5 (or more) images of cars, most have a electricity sign on them but some dont (or some have a fire symbol on them)
-
-#on gameend for all levels, show a menu with the final score, a choice to go back to the main menu. 
-
-#maybe make a file with highscores for each of the gamemodes?
